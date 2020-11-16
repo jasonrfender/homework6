@@ -46,7 +46,7 @@ document.querySelector("#volumeSlider").addEventListener("click", function() {
 
 });
 
-document.querySelector("#oldTime").addEventListener("click", function() {
+document.querySelector("#old").addEventListener("click", function() {
 	console.log("Old School");
 	video.style.filter = "grayscale(100%)";
 
