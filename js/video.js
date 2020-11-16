@@ -56,7 +56,8 @@ document.querySelector("#old").addEventListener("click", function() {
 
 document.querySelector("#original").addEventListener("click", function() {
 	console.log("Original");
-	video.style.filter = "grayscale(0%)";
+ 	// video.style.filter = "grayscale(0%)";
+	video.classList.toggle("oldTime");
 
 });
 
