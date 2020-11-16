@@ -17,13 +17,13 @@ document.querySelector("#pause").addEventListener("click", function() {
 });
 
 document.querySelector("#slower").addEventListener("click", function() {
-	console.log("Slow Down Video");
+	console.log("Slow Down");
 	video.playbackRate = video.playbackRate *0.9;
 	
 });
 
 document.querySelector("#faster").addEventListener("click", function() {
-	console.log("Speed Up Video");
+	console.log("Speed Up");
 	video.playbackRate = video.playbackRate *1.1;
 	
 });
@@ -46,7 +46,7 @@ document.querySelector("#volumeSlider").addEventListener("click", function() {
 
 });
 
-document.querySelector("#old").addEventListener("click", function() {
+document.querySelector("#oldTime").addEventListener("click", function() {
 	console.log("Old School");
 	video.style.filter = "grayscale(100%)";
 
